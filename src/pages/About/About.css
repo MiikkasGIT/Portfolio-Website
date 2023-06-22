@@ -1,0 +1,109 @@
+a{
+    color: black;
+}
+
+.title{
+    font-size: 15em;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+}
+
+h3{
+    padding-top: 0,25em;
+}
+
+.vertical-timeline-element-content{
+    box-shadow: none;
+    padding: 2em 3em !important;
+}
+
+.date{
+    color: rgb(255, 255, 255);
+}
+
+#description{
+    margin: 1.5em 0 2em 0;
+}
+
+.button{
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+}
+
+.workButton{
+    background-color: #06D6A0;
+}
+
+.workButton:hover{
+    background-color: #05c290;
+}
+
+.schoolButton{
+    background-color: #f9c74f;
+}
+
+.schoolButton:hover{
+    background-color: #e2b54a;
+}
+
+@media only screen and (max-width: 1700px){
+    .vertical-timeline-element-date{
+        display: block !important;
+        float: none !important;
+        color: black;
+        margin-top: 1.5em;
+    }
+}
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.about-container{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 6em;
+    display: flex;
+}
+.about-titel{
+    font-size: 60px;
+    margin-bottom: -1px;
+    font-weight: lighter;
+	color: white;
+}
+.about-me{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+.about-text p{
+	color: #04AA6D;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+@media only screen and (max-width: 1170px){
+    .about-container{
+        flex-direction: column;
+    }
+}
+

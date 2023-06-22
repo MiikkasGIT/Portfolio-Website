@@ -1,0 +1,121 @@
+.Home{
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.navigation{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 70vw;
+
+    height: 50vh;
+    max-width: 900px;
+    max-height: 600px;
+
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.social-media{
+    text-align: left;
+    right: 2%;
+    top: 40%;
+    margin-left: auto;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: right;
+}
+
+.social-list{
+    list-style: none;
+}
+
+.social-icon{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+
+.subtitle{
+    font-style: italic;
+    text-transform: uppercase;
+    width: 5px;
+}
+
+
+@media only screen and (min-width: 64em) {
+    .top {
+        padding: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .navigation {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 64em) {
+    .navigation {
+        text-align: center;
+    }
+    .social-media{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 64em){
+    .navigation .item {
+        width: auto;
+        top: 50%;
+        text-align: left;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width: 64em){
+    .item1 {
+        -webkit-transform: translate3d(0,-25vh,0);
+        transform: translate3d(0,-25vh,0);
+    }
+}
+
+    @media only screen and (min-width: 64em){
+        .item2 {
+            -webkit-transform: translate3d(0,-5vh,0);
+            transform: translate3d(0,-5vh,0);
+            right: 0;
+        }
+    }
+
+@media only screen and (min-width: 64em){
+    .item3 {
+        -webkit-transform: translate3d(10vw, 15vh, 0);
+        transform: translate3d(10vw, 15vh, 0);
+    }
+}

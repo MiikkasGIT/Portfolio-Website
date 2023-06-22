@@ -1,0 +1,105 @@
+.recent-card{
+    overflow: hidden;
+	margin:7px;
+	display: block;
+	float:left;
+}
+.recent-card-image {
+	width: 305px;
+	height: 270px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    transform-origin: 65% 75%;
+    transition: transform 1s, filter .5s ease-out;
+}
+
+  .recent-card-image:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+.recent-card-image:after {
+	content: '\A';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(#ffffff00, #000000);
+	opacity: 1;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+}
+.recent-card-image .recent-card-title {
+	font-size: 21px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	color: white;
+	display: block;
+	margin-bottom: 5px;
+}
+.recent-card-image .recent-card-alt-title {
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #afaeae;
+	display: block;
+}
+.text-bottom-left {
+	display: table;
+}
+.text-bottom-left article-meta {
+	display: table-cell;
+	position: relative;
+	z-index: 2;
+	padding: 15px 20px 15px 20px;
+}
+.text-bottom-left article-meta {
+	vertical-align: bottom;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+}
+.work{
+	display: flex;
+    justify-content: center;
+	flex-direction: row;
+	animation: zoomin 2s alternate;
+    padding: 150px;
+}
+
+@media only screen and (max-width: 1000px){
+    .work{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        animation: zoomin 2s alternate;
+        align-items: center;
+    }
+}
+
+.poopup-button{
+	background: transparent;
+	border: none;
+}
+
+.popup-contentt{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	border: none;
+}
+
+.popup-item{
+	width: 40%;
+}
+
+.popup-img{
+	margin-top: 35px;
+	width: 100%;
+}
+
+.work-section{
+	width: 100%;
+    padding: 100px 0px;
+}

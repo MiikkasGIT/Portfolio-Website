@@ -1,0 +1,49 @@
+
+.Kontakt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: auto;
+    color: white;
+}
+
+.contact-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    z-index: 100;
+}
+
+.contact-formular{
+    width: 50%;
+    z-index: 100;
+}
+input[type=text], select, textarea,input[type=email] {
+    font-family: Roboto;
+    border: none;
+    width: 80%;
+    padding: 0.5rem;
+    background: 0 0;
+    color: grey;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+input[type=text],input[type=email] select, textarea:focus {
+    outline-width: 0;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 1px solid #04AA6D;
+}
+input[type=submit] {
+    background-color: transparent;
+    color: #04AA6D;
+    padding: 12px 20px;
+    border-color: #04AA6D;
+    border-radius: 4px;
+    cursor: pointer;
+}
